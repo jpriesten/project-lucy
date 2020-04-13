@@ -1,0 +1,42 @@
+{
+  "name": "project_lucy",
+  "version": "1.0.0",
+  "description": "An API to automatically generate GPS coordinates",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "start": "node server.js",
+    "lint": "./node_modules/eslint/bin/eslint.js server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Aneaku",
+    "map",
+    "route",
+    "API"
+  ],
+  "author": "Aneaku",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "express-winston": "^3.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.0",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.0",
+    "simple-crypto-js": "^2.0.2",
+    "validator": "^11.1.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  }
+}
